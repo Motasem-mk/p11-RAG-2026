@@ -1,4 +1,3 @@
-````markdown
 # Puls-Events RAG Assistant
 
 ## 1. Project overview
