@@ -369,3 +369,24 @@ The system can:
 
 ```
 
+##  Architecture
+
+```mermaid
+flowchart LR
+
+    A[OpenAgenda API] --> B[Preprocessing]
+    B --> C[Clean Event Data]
+    C --> D[LangChain Documents]
+    D --> E[Chunks]
+    E --> F[Mistral Embeddings]
+    F --> G[FAISS Index]
+
+    H[User Question] --> I[Retriever]
+    G --> I
+    I --> J[Retrieved Context]
+    J --> K[Mistral Chat Model]
+    K --> L[Grounded Answer]
+
+    M[Q/A Test Dataset] --> N[Evaluation Script]
+    N --> O[Evaluation Results]
+```
