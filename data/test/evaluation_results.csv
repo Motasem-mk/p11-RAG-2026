@@ -1,0 +1,276 @@
+id;category;question;expected_answer;expected_keywords;answer;matched_keywords;missing_keywords;match_ratio;passed;retrieved_chunks
+1;famille_enfants;Recommande-moi une activité culturelle pour des enfants à Paris.;La réponse doit recommander au moins un événement adapté aux enfants ou aux familles à Paris, avec un titre, une date ou période, un lieu et si possible un lien.;enfant|famille|Paris|lieu|date;"Pour une activité culturelle adaptée aux enfants à Paris, je te recommande :
+
+**Le Palais des enfants**
+- **Dates** : Du 20 juin 2025 au 29 août 2027
+- **Lieu** : Grand Palais - Palais de la découverte (Paris 8e)
+- **Description** : Une expérience immersive mêlant art, science et créativité, idéale pour éveiller la curiosité des enfants.
+- **URL** : [Le Palais des enfants](https://openagenda.com/palais-de-la-decouverte/events/le-palais-des-enfants)
+
+Autres options possibles :
+- **Activité en famille : une visite théâtralisée dans le Marais** (27 août au 21 septembre 2025, Pont Marie)
+- **Visite-Spectacle - L'Éternel esprit de Montmartre** (30 août au 26 octobre 2025, Square Nada)
+- **Atelier créatif ""Figures de la mythologie""** (20-21 septembre 2025, Musée Bourdelle)";enfant|famille|Paris|lieu|date;;1.0;True;8
+2;famille;Y a-t-il des événements familiaux à Paris ?;La réponse doit proposer des événements destinés aux familles, en mentionnant les informations principales disponibles dans le contexte : titre, lieu, date et lien si présent.;famille|Paris|date|lieu;"Oui, voici des événements familiaux à Paris selon les données disponibles :
+
+1. **Visite-Spectacle - l'Eternel esprit de Montmartre**
+   - **Dates** : Du 30 août au 26 octobre 2025
+   - **Lieu** : Square Nada, Paris 18ᵉ
+   - **Public** : Idéal pour les familles
+   - **URL** : [En savoir plus](https://openagenda.com/unidivers-oui-sortir/events/visite-spectacle-leternel-esprit-de-montmartre)
+
+2. **Visite en famille !**
+   - **Date** : 20 septembre 2025 (13h-15h)
+   - **Lieu** : Chaillot - Théâtre national de la Danse, Paris 16ᵉ
+   - **Description** : Visite adaptée aux familles pour découvrir l’histoire du théâtre.
+   - **URL** : [En savoir plus](https://openagenda.com/culture/events/visite-en-famille-7435794)
+
+3. **Manger frais, ça s’apprend dès le plus jeune âge !**
+   - **Date** : 28 septembre 2025 (7h-11h)
+   - **Lieu** : Marché Place des Fêtes, Paris 19ᵉ
+   - **Activités** : Jeux, ateliers et dégustations pour les enfants sur les fruits et légumes.
+   - **URL** : [En savoir plus](https://openagenda.com/la-grande-semaine-vegetale/events/manger-frais-ca-sapprend-des-le-plus-jeune-age-2083777)";famille|Paris|date|lieu;;1.0;True;8
+3;musique;Trouve-moi un événement musical à Paris.;La réponse doit recommander au moins un événement lié à la musique ou à un concert à Paris, avec le titre, la date, le lieu et le lien si disponible.;musique|concert|Paris|date|lieu;"Voici un événement musical à Paris :
+
+**Titre :** Duo flûte et piano avec Serena Huang et Yijia Shen à Paris
+**Date :** 11 avril 2026
+**Heure :** 18h00 - 19h00
+**Lieu :** École de musique, Paris 20ème
+**URL :** [Lien vers l'événement](https://openagenda.com/hormur-plateforme-devenements-artistiques-dans-des-lieux-non-conventionnels/events/duo-flute-et-piano-avec-serena-huang-et-yijia-shen-a-paris-11-avril)
+
+*(Prix à partir de 15 €, places limitées)*";musique|Paris|date|lieu;concert;0.8;True;8
+4;exposition;Peux-tu me proposer une exposition à Paris ?;La réponse doit recommander une exposition ou une activité de type musée, art, galerie ou visite culturelle à Paris, en utilisant uniquement les événements retrouvés dans le contexte.;exposition|musée|art|Paris|date;"Voici une exposition à Paris que je peux te proposer :
+
+**Titre :** *Exposition STOCK, architectures de survie et de transmission*
+**Dates :** Du 16 avril 2026 au 28 juin 2026
+**Lieu :** La poste Rodier, Paris 9ᵉ (75009)
+**URL :** [En savoir plus](https://openagenda.com/planlibre/events/exposition-stock-architectures-de-survie-et-de-transmission)
+
+*Horaires :*
+- Du lundi au vendredi : 12h–18h
+- Samedi et dimanche : 12h–19h
+
+*Partenaires :* Ville de Paris, Métropole du Grand Paris, Sogaris, La Poste Immobilier, Tema.archi.";exposition|art|Paris|date;musée;0.8;True;8
+5;gratuit;Quels événements gratuits peut-on faire à Paris ?;La réponse doit proposer uniquement des événements dont le contexte indique qu'ils sont gratuits ou accessibles gratuitement. Si le contexte ne donne pas clairement l'information, la réponse doit le préciser.;gratuit|Paris|date|lieu;"Voici les événements gratuits à Paris mentionnés dans le contexte :
+
+1. **Les Estivales**
+   - **Dates** : Du 8 juillet au 3 août 2025
+   - **Lieu** : Musée des arts et métiers (75003 Paris)
+   - **Activités gratuites** :
+     - Participation à une fresque de street-art (à partir de 7 ans) – entrée libre.
+     - Glacier laCrèma : glaces, café et boissons fraîches (13h-18h).
+   - **URL** : [Les Estivales](https://openagenda.com/unidivers-oui-sortir/events/les-estivales-4208527)
+
+2. **Les Journées européennes du patrimoine au Cnam**
+   - **Dates** : 20 et 21 septembre 2025
+   - **Lieu** : Conservatoire national des Arts et Métiers (Cnam, 75003 Paris)
+   - **Activités gratuites** :
+     - Construction d’une arche ou d’une maison en playmaïs (10h30, 1h, inscription sur place).
+     - Visites flash des trésors de l’église (10h30 & 15h30, sans réservation).
+     - Visite des instruments scientifiques (11h & 14h, sans réservation).
+   - **URL** : [Journées européennes du patrimoine au Cnam](https://openagenda.com/unidivers-oui-sortir/events/les-journees-europeennes-du-patrimoine-au-cnam)
+
+---
+*Les autres événements mentionnés dans le contexte ne sont pas gratuits ou ne précisent pas leur gratuité.*";gratuit|Paris|date|lieu;;1.0;True;8
+6;nature_jardins;Je cherche une activité autour de la nature ou des jardins à Paris.;La réponse doit recommander un événement lié à la nature, aux jardins, aux parcs ou à l'environnement, avec le lieu et la date.;nature|jardin|parc|Paris;"Voici quelques activités autour de la nature ou des jardins à Paris, basées sur les données disponibles :
+
+1. **Flore Urbaine : Atelier coup de main**
+   - **Date** : 26 septembre 2025 (8h-10h)
+   - **Lieu** : Pépinière de quartier Flore Urbaine, Paris 20e
+   - **Description** : Atelier autour du végétal en ville et de la transition écologique, ouvert à tous les niveaux.
+   - **URL** : [Flore Urbaine : Atelier coup de main](https://openagenda.com/pepinsproduction/events/flore-urbaine-atelier-coup-de-main)
+
+---
+
+2. **Parcours nature entre terre, ciel et eau à Paris**
+   - **Dates** : Jusqu'au 30 août 2025 (14h30-16h30)
+   - **Lieux** :
+     - Avenue Émile Zola, Paris 15e
+     - Parc André Citroën, Paris 15e
+   - **Description** : Promenade guidée par une botaniste dans les parcs André Citroën et Georges Brassens, pour découvrir la flore urbaine et les écosystèmes.
+   - **URL** : [Parcours nature entre terre, ciel et eau](https://openagenda.com/econature/events/parcours-nature-entre-terre-ciel-et-eau-a-paris-2113049)
+
+---
+3. **Découverte de la biodiversité au Père-Lachaise**
+   - **Dates** : Jusqu'au 10 juin 2026 (10h-13h)
+   - **Lieu** : Cimetière du Père-Lachaise, Paris 20e
+   - **Description** : Balade matinale pour découvrir les oiseaux, arbres et plantes sauvages dans ce grand espace vert parisien.
+   - **URL** : [Découverte de la biodiversité au Père-Lachaise](https://openagenda.com/econature/events/la-biodiversite-au-pere-lachaise-8971)
+
+---
+4. **Balades botaniques à Ménilmontant**
+   - **Dates** : Jusqu'au 3 octobre 2026 (10h30-16h)
+   - **Lieu** : 121 Rue de Ménilmontant, Paris 20e
+   - **Description** : Exploration du monde végétal entre les pavés et dans les jardins cachés de Ménilmontant.
+   - **URL** : [Balades botaniques à Ménilmontant](https://openagenda.com/econature/events/decouverte-des-jardins-du-20e)
+
+---
+5. **Reconnaître les arbres au Parc Floral, Bois de Vincennes**
+   - **Dates** : Jusqu'au 23 novembre 2025 (14h-16h30)
+   - **Lieu** : Espace Saint-Louis, Parc Floral, Paris 12e
+   - **Description** : Balade pour apprendre à reconnaître les arbres grâce à une fiche illustrée.
+   - **URL** : [Reconnaître les arbres au Parc Floral](https://openagenda.com/econature/events/orinireconnaitre-les-arbres-au-parc-floral-bois-de-vincennes)";nature|jardin|parc|Paris;;1.0;True;8
+7;date;Propose-moi une activité culturelle ce mois-ci à Paris.;La réponse doit recommander des événements disponibles dans le contexte et mentionner leurs dates. Elle ne doit pas inventer d'événements hors contexte.;Paris|date|événement;"Voici une activité culturelle ce mois-ci à Paris :
+
+**Titre :** Les Estivales
+**Dates :** Du mardi 8 juillet au dimanche 3 août 2025
+**Ville :** Paris
+**Lieu :** Musée des arts et métiers
+**Activités :**
+- Création d'une fresque de street-art collective (à partir de 7 ans) avec des bombes de peinture à l'eau.
+- Ateliers du mardi 8 au vendredi 18 juillet 2025, de 14h à 17h (en continu).
+- Activité gratuite, entrée libre.
+**URL :** [Les Estivales](https://openagenda.com/unidivers-oui-sortir/events/les-estivales-4208527)";Paris|date;événement;0.67;True;8
+8;atelier;Y a-t-il des ateliers créatifs à Paris ?;La réponse doit recommander un atelier ou une activité participative/créative, en mentionnant le public concerné si l'information est disponible.;atelier|créatif|activité|Paris;"Oui, il y a plusieurs ateliers créatifs à Paris. En voici quelques-uns :
+
+1. **Flore Urbaine : Atelier coup de main**
+   - **Date** : 3 octobre 2025 (08:00 - 10:00)
+   - **Lieu** : Pépinière de quartier Flore Urbaine, Paris 20e
+   - **URL** : [En savoir plus](https://openagenda.com/pepinsproduction/events/flore-urbaine-atelier-coup-de-main-8100075)
+
+2. **Atelier cuisine sauvage**
+   - **Dates** : Du 14 janvier 2025 au 5 juillet 2026 (17:00 - 17:30)
+   - **Lieu** : 22 Rue de la Prévoyance, Vincennes (proche de Paris)
+   - **URL** : [En savoir plus](https://openagenda.com/econature/events/atelier-cuisine-sauvage-1749542)
+
+3. **Peinture sur feuilles, esprit d’automne**
+   - **Dates** : Du 14 octobre au 4 novembre 2025 (12:00 - 14:30)
+   - **Lieu** : Cité des sciences et de l'Industrie, Paris 19e
+   - **URL** : [En savoir plus](https://openagenda.com/echosciences/events/peinture-sur-feuilles-esprit-dautomne)
+
+4. **Dentelle aux fuseaux : démonstrations et ateliers de découverte avec Paris Ateliers**
+   - **Date** : 20 septembre 2025 (12:30 - 15:30)
+   - **Lieu** : Paris Ateliers, Viaduc des arts, Paris 12e
+   - **URL** : [En savoir plus](https://openagenda.com/culture/events/demonstration-et-ateliers-decouverte-en-dentelle-aux-fuseaux-avec-iris-frere-dentelliere-et-intervenante-a-paris-ateliers)
+
+5. **Créez votre marque-page**
+   - **Dates** : Du 26 septembre 2024 au 23 avril 2026 (14:00 - 13:30)
+   - **Lieu** : Cité des sciences et de l'Industrie, Paris 19e
+   - **URL** : [En savoir plus](https://openagenda.com/echosciences/events/atelier-de-loisirs-creatifs-realises-a-partir-de-materiaux-de-recuperation)
+
+6. **Fabriquez votre carnet de voyage**
+   - **Dates** : Du 13 novembre 2024 au 14 avril 2026 (14:00 - 14:30)
+   - **Lieu** : Cité des sciences et de l'Industrie, Paris 19e
+   - **URL** : [En savoir plus](https://openagenda.com/echosciences/events/fabriquez-votre-carnet-de-voyage)";atelier|créatif|Paris;activité;0.75;True;8
+9;localisation;Je veux une sortie culturelle dans le 15e arrondissement de Paris.;La réponse doit privilégier les événements situés à Paris 75015 ou dans le 15e arrondissement si le contexte en contient.;75015|Paris|lieu|date;"Voici une sortie culturelle dans le 15e arrondissement de Paris :
+
+**Titre :** *Visite d'Architecture urbaine à Beaugrenelle*
+**Date :** Samedi 20 septembre 2025
+**Horaires :** 11h - 12h (1er créneau) ou 14h - 15h (2e créneau) ou 15h15 - 16h15 (3e créneau)
+**Lieu :** Quartier - Dalle Beaugrenelle, Paris 15
+**URL :** [En savoir plus](https://openagenda.com/culture/events/visite-darchitecture-urbaine-a-beaugrenelle)
+
+*Découvrez l’architecture emblématique des années 1970 du quartier Beaugrenelle lors des Journées européennes du patrimoine.*
+
+---
+
+**Titre :** *Architecture du XXIe siècle sur les berges parisiennes de Paris 15e*
+**Date :** Dimanche 21 septembre 2025
+**Horaires :** 12h30 - 13h30
+**Lieu :** Ports de Javel, Paris 15 (RDV sur le pont de Grenelle face à la statue de la Liberté)
+**URL :** [En savoir plus](https://openagenda.com/culture/events/architecture-du-xxie8-siecle-sur-les-berges-parisiennes-de-paris-15e)
+
+*Exploration des installations portuaires et de leur intégration paysagère.*";Paris|lieu|date;75015;0.75;True;8
+10;science_education;Trouve une activité scientifique ou éducative à Paris.;La réponse doit recommander un événement à caractère scientifique, éducatif, conférence, atelier pédagogique ou activité de découverte si le contexte en contient.;science|éducatif|conférence|Paris;"Voici une activité scientifique et éducative à Paris :
+
+**Titre :** Club de science Multiscience
+**Dates :** Chaque mercredi pendant les périodes scolaires (du 24 septembre 2025 au 10 juin 2026)
+**Ville :** Paris
+**Lieu :** Cité des sciences et de l'Industrie
+**URL :** [Club de science Multiscience](https://openagenda.com/echosciences/events/club-de-science-multiscience)
+
+Ce club propose aux jeunes de participer à des activités scientifiques ludiques et expérimentales pour explorer des thématiques variées (biologie, physique, etc.) encadrées par des chercheurs.";science|Paris;éducatif|conférence;0.5;True;8
+11;visite;Peux-tu recommander une visite culturelle à Paris ?;La réponse doit recommander une visite, balade, parcours ou activité culturelle de découverte, avec le titre, la date et le lieu.;visite|culturelle|Paris|lieu;"Voici une recommandation de visite culturelle à Paris basée sur les événements disponibles :
+
+**Visites Spectacles : découvrez Paris comme vous ne l’avez jamais vu**
+- **Dates** : Du 28 mars 2026 au 27 décembre 2026 (visites régulières, notamment le week-end).
+- **Ville** : Paris (75011).
+- **Lieu** : Visites Spectacles.
+- **Concept** : Une expérience immersive entre théâtre et visite guidée, où des comédiens professionnels vous entraînent dans des scénarios captivants à travers les quartiers emblématiques de Paris (ex. : *L’intrigue des passages couverts*, *Le secret de Notre-Dame*, *Enquête au Père Lachaise*).
+- **Format** : Visites-Spectacles (pièce de théâtre en plein air), Visites-Enquêtes ou Visites Contées.
+- **URL** : [En savoir plus](https://openagenda.com/unidivers-oui-sortir/events/visites-spectacles-decouvrez-paris-comme-vous-ne-lavez-jamais-vu).
+
+---
+*Alternative insolite* :
+**Plongez dans les profondeurs fascinantes du Musée des Égouts de Paris !**
+- **Date** : 23 novembre 2025 (de 9h à 16h).
+- **Ville** : Paris (75007).
+- **Lieu** : Musée des égouts de Paris.
+- **Concept** : Découverte des galeries souterraines et de l’histoire technique des égouts parisiens, avec un bâtiment rénové visible depuis la Seine.
+- **URL** : [En savoir plus](https://openagenda.com/semaine-industrie-2025/events/plongez-dans-les-profondeurs-fascinantes-du-musee-des-egouts-de-paris).";visite|culturelle|Paris|lieu;;1.0;True;8
+12;weekend;Je cherche une activité pour le week-end à Paris.;La réponse doit recommander des événements dont les dates ou périodes correspondent à une sortie possible, en indiquant clairement les dates présentes dans le contexte.;week-end|Paris|date|lieu;"Voici quelques idées d'activités pour ce week-end à Paris, basées sur les événements disponibles :
+
+1. **""Qui Veut Pister Paris : vivez une enquête grandeur nature dans les rues de la capitale""**
+   - **Dates** : Tous les week-ends (départs à 14h30 et/ou 15h00).
+   - **Lieu** : Paris (75011), départ depuis *Qui Veut Pister*.
+   - **Description** : Une activité ludique en équipe pour découvrir Paris à travers des énigmes et des parcours variés (ex. *Le Revers de la Médaille*, *Enquête Sous Couvert*, *Mystère à Montmartre*).
+   - **Réservation** : Obligatoire (accessible sur réservation).
+   - **URL** : [Qui Veut Pister Paris](https://openagenda.com/unidivers-oui-sortir/events/qui-veut-pister-paris-vivez-une-enquete-grandeur-nature-dans-les-rues-de-la-capitale)
+
+2. **""Visites Spectacles : découvrez Paris comme vous ne l’avez jamais vu""**
+   - **Dates** : Du 28 mars au 27 décembre 2026 (départs à 13h30 et 16h00).
+   - **Lieu** : Paris (75011), départ depuis *Visites Spectacles*.
+   - **Description** : Visites guidées immersives mêlant histoire et spectacle pour une découverte originale de Paris.
+   - **URL** : [Visites Spectacles](https://openagenda.com/unidivers-oui-sortir/events/visites-spectacles-decouvrez-paris-comme-vous-ne-lavez-jamais-vu)
+
+---
+*Pour des événements spécifiques à ce week-end (dates exactes), vérifiez les disponibilités sur les liens fournis.*";week-end|Paris|date|lieu;;1.0;True;8
+13;public_cible;Donne-moi une activité adaptée aux adolescents à Paris.;La réponse doit proposer un événement pouvant convenir à des adolescents si le contexte fournit des informations d'âge ou de public. Sinon, elle doit rester prudente et ne pas inventer de public cible.;adolescent|jeune|Paris|activité;"Voici une activité adaptée aux adolescents à Paris :
+
+**Titre :** *Chaillot Colo #30*
+**Dates :** Du 14 juillet 2025 (15h) au 19 juillet 2025 (11h30)
+**Lieu :** Palais de Chaillot, Paris 16e
+**Description :** Cette colonie propose des activités artistiques, ludiques et culturelles, comme une visite de Paris en bateau, une visite du musée de la Marine, une sortie au spectacle *Rave Lucid* (Festival Paris l'été) et une visite du musée du Louvre.
+**URL :** [Chaillot Colo #30](https://openagenda.com/eteculturel/events/chaillot-colo-30)
+
+Autres options possibles :
+- **Visite du siège de l'Agence spatiale européenne** (20 septembre 2025, Paris 15e) – Activités pour les 12-17 ans.
+- **Jeu de piste à Paris : Crimes à Saint Germain** (jusqu'au 16 novembre 2025, Paris 6e) – Enquête ludique en équipe.
+
+Si tu cherches une activité spécifique (sportive, artistique, etc.), précise ta demande !";adolescent|Paris|activité;jeune;0.75;True;8
+14;url;Quels événements ont un lien ou une URL pour réserver ou obtenir plus d'informations ?;La réponse doit citer des événements avec une URL disponible dans le contexte.;URL|lien|Paris|événement;"Voici les événements ayant un lien ou une URL pour réserver ou obtenir plus d'informations :
+
+1. **Visite patrimoniale de la mairie du 5e arr. : un chef-d'oeuvre de l'Art déco**
+   - **Date** : 20 septembre 2025
+   - **Ville** : Paris
+   - **URL** : [Lien d'inscription](https://openagenda.com/culture/events/visite-patrimoniale-de-la-mairie-du-5e-arr-un-chef-doeuvre-de-lart-deco-7997157)
+
+2. **Un quartier du 12e arrondissement - La Vallée de Fécamp**
+   - **Date** : 20 septembre 2025
+   - **Ville** : Paris
+   - **URL** : [Lien d'inscription](https://openagenda.com/culture/events/un-quartier-du-12e-arrondissement-la-vallee-de-fecamp)
+
+3. **À la découverte des archives de la Commission du Vieux Paris (18e arr.)**
+   - **Date** : 19 septembre 2025
+   - **Ville** : Paris
+   - **URL** : [Lien d'inscription](https://openagenda.com/culture/events/a-la-decouverte-des-archives-de-la-commission-du-vieux-paris)
+
+4. **Parcours Révolution - quartier de la place de la Nation**
+   - **Date** : 19 septembre 2025
+   - **Ville** : Paris
+   - **URL** : [Lien d'inscription](https://openagenda.com/culture/events/parcours-revolution-quartier-de-la-place-de-la-nation)
+
+5. **La fontaine Stravinsky (4e arr.)**
+   - **Date** : 21 septembre 2025
+   - **Ville** : Paris
+   - **URL** : [Lien d'inscription](https://openagenda.com/culture/events/la-fontaine-stravinsky)
+
+6. **Budget ou pas budget? Croissance ou pas croissance?**
+   - **Date** : 25 novembre 2025
+   - **Ville** : Paris
+   - **Lieu** : HEC Alumni
+   - **URL** : [Lien vers l'événement](https://openagenda.com/unidivers-oui-sortir/events/budget-ou-pas-budget-croissance-ou-pas-croissance)
+   - **Lien de connexion** : [Lien en haut de la page de l'événement](https://www.hecalumni.fr/media/index/get-file/id/32833/noLayout/1)
+
+7. **Le riche patrimoine statuaire de la place du Général-Catroux (17e arr.)**
+   - **Date** : 20 septembre 2025
+   - **Ville** : Paris
+   - **URL** : [Lien d'inscription](https://openagenda.com/culture/events/le-riche-patrimoine-statuaire-de-la-place-du-general-catroux)
+
+8. **Webinaire ""Creative Innovation Lab""**
+   - **Date** : 23 janvier 2026
+   - **Ville** : Paris
+   - **Lieu** : Relais Culture Europe
+   - **URL** : [Lien vers l'événement](https://openagenda.com/agenda-de-leurope-en-guyane/events/webinaire-creative-innovation-lab)
+   - **Lien d'informations** : [Appel à projets](https://www.relais-culture-europe.eu/appels-a-projets/innovation-lab)";URL|lien|Paris|événement;;1.0;True;8
+15;hors_scope;Y a-t-il des événements à Lyon dans cet index ?;Si l'index a été construit pour Paris, la réponse doit dire qu'elle ne sait pas ou qu'elle ne dispose pas d'informations suffisantes sur Lyon dans les données disponibles.;je ne sais pas|données disponibles|Lyon;Non, il n'y a aucun événement à Lyon dans cet index. Tous les événements listés se déroulent à Paris.;Lyon;je ne sais pas|données disponibles;0.33;False;8
