@@ -371,7 +371,6 @@ The system can:
 
 ##  Architecture
 
-```mermaid
 flowchart LR
 
     A[OpenAgenda API] --> B[Preprocessing]
@@ -389,4 +388,4 @@ flowchart LR
 
     M[Q/A Test Dataset] --> N[Evaluation Script]
     N --> O[Evaluation Results]
-```
+
