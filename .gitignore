@@ -1,37 +1,6 @@
-# Environment variables / secrets
 .env
-
-# Python cache
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environments
-venv/
 .venv/
-env/
-ENV/
-
-# Mac system files
-.DS_Store
-
-# Jupyter
-.ipynb_checkpoints/
-
-# VS Code settings
-.vscode/
-
-# FAISS index files
-# The index can be rebuilt using src/index/build_faiss.py
 data/index/
-
-# Logs
-*.log
-
-# Temporary files
-tmp/
-temp/
-
-# Pytest cache
+__pycache__/
 .pytest_cache/
-
+.DS_Store
