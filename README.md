@@ -367,10 +367,13 @@ The system can:
 * run as a Streamlit web demo
 * evaluate answers using an annotated French Q/A dataset
 
-```
 
-##  Architecture
 
+---
+
+## Architecture
+
+```mermaid
 flowchart LR
 
     A[OpenAgenda API] --> B[Preprocessing]
@@ -388,4 +391,6 @@ flowchart LR
 
     M[Q/A Test Dataset] --> N[Evaluation Script]
     N --> O[Evaluation Results]
+```
+
 
