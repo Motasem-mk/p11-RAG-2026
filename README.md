@@ -47,7 +47,7 @@ CLI or Streamlit demo
 ## 3. Project structure
 
 ```text
-2026 RAG/
+p11-RAG-2026/
 │
 ├── app.py
 ├── README.md
